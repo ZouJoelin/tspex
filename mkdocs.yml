@@ -1,0 +1,45 @@
+site_name: 'tspex Documentation'
+site_url: 'https://zoujoelin.github.io/tspex/'
+site_description: 'Documentation for tspex, a tissue-specificity calculator'
+site_author: 'ZouJoelin'
+
+repo_name: 'ZouJoelin/tspex'
+repo_url: 'https://github.com/ZouJoelin/tspex'
+
+nav:
+  - Home: 'index.md'
+  - Tissue-specificity metrics: 'metrics.md'
+  - Python API: 'python_api.ipynb'
+  - Command-line interface (CLI): 'cli.md'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'White'
+    accent: 'Light Blue'
+  font:
+    text: 'Nunito Sans'
+    code: 'Fira Mono'
+  logo:
+    icon: 'book'
+
+markdown_extensions:
+  - 'admonition'
+  - 'footnotes'
+  - 'codehilite'
+  - 'pymdownx.arithmatex'
+
+plugins:
+  - 'search'
+  - 'mknotebooks'
+
+extra_css:
+  - 'extra.css'
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra:
+  social:
+    - type: 'github-alt'
+      link: 'https://github.com/zoujoelin/'
